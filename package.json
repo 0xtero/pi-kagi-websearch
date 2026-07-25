@@ -1,0 +1,27 @@
+{
+  "name": "pi-kagi-websearch",
+  "version": "0.1.0",
+  "description": "Kagi web search and content extraction for Pi agent",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "kagi-websearch.ts",
+  "files": [
+    "kagi-websearch.ts",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./kagi-websearch.ts"
+    ]
+  }
+}
