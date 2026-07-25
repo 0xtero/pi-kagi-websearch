@@ -4,10 +4,10 @@
   "description": "Kagi web search and content extraction for Pi agent",
   "keywords": ["pi-package"],
   "license": "MIT",
-  "author": "",
+  "author": "0xtero",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/0xtero/pi-kagi-websearch"
   },
   "main": "kagi-websearch.ts",
   "files": [
